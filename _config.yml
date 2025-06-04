@@ -12,7 +12,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## 在此设置您的站点URL。例如，如果您使用GitHub Page，请将url设置为'https：//username.github.io/project'
 url: https://cimoco.vercel.app
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,4 +101,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/ciMoco/my-tech-blog.git
+  branch: main
